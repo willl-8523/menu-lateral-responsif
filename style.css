@@ -225,10 +225,6 @@ body {
   justify-content: center;
 }
 
-.active {
-    display: block;
-}
-
 /** Responsive */
 @media screen and (max-width: 1100px) {
   .navbar {
@@ -237,12 +233,9 @@ body {
 }
 @media screen and (max-width: 800px) {
   .sidebar {
-    display: none;
-  }
-  /* .sidebar {
     left: 0;
     z-index: 1000;
-  } */
+  }
   .sidebar.close {
     left: -100%;
   }
